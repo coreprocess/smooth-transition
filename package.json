@@ -1,6 +1,6 @@
 {
     "name": "smooth-transition",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Smooth transition between two React components",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -10,10 +10,12 @@
     "license": "MIT",
     "keywords": [
         "react",
+        "react-component",
+        "component",
         "SmoothTransition",
         "smooth-transition",
-        "react-component",
-        "css-transition"
+        "css-transition",
+        "transition"
     ],
     "private": false,
     "scripts": {
