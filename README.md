@@ -7,7 +7,7 @@
 
 ## Installation
 
-Use your favourite manager to install the package:
+Use your favourite manager to install the [package](https://www.npmjs.com/package/smooth-transition):
 
 ```sh
 yarn add smooth-transition
