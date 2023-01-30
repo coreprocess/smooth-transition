@@ -1,6 +1,6 @@
 {
     "name": "smooth-transition",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "Smooth transition between two React components",
     "main": "dist/index.js",
     "module": "dist/index.js",
@@ -8,6 +8,13 @@
     "repository": "https://github.com/teamrevin/smooth-transition",
     "author": "Niklas Salmoukas",
     "license": "MIT",
+    "keywords": [
+        "react",
+        "SmoothTransition",
+        "smooth-transition",
+        "react-component",
+        "css-transition"
+    ],
     "private": false,
     "scripts": {
         "build": "tsc"
