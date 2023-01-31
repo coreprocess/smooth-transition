@@ -1,11 +1,18 @@
 {
     "name": "smooth-transition",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "description": "Smooth transition between React components.",
     "main": "dist/index.js",
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
-    "repository": "https://github.com/teamrevin/smooth-transition",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/teamrevin/smooth-transition.git"
+    },
+    "homepage": "https://github.com/teamrevin/smooth-transition#readme",
+    "bugs": {
+        "url": "https://github.com/teamrevin/smooth-transition/issues"
+    },
     "author": "Niklas Salmoukas",
     "license": "MIT",
     "keywords": [
