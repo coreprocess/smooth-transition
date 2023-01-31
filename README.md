@@ -21,30 +21,42 @@ npm install smooth-transition --save
 
 ```ts
 import { TextField, Typography } from "@mui/material";
+import React, { ChangeEventHandler, forwardRef } from "react";
 import { SmoothTransition } from "smooth-transition";
 
-export const Example = () => (
-    <SmoothTransition
-        render={[
-            (state) => (
-                <Typography ref={state != "leave" ? ref : undefined}>
-                    {content}
-                </Typography>
-            ),
-            (state) => (
-                <TextField
-                    ref={state != "leave" ? ref : undefined}
-                    fullWidth
-                    multiline
-                    value={content}
-                    onChange={onChange}
-                />
-            ),
-        ]}
-        active={!editMode ? 0 : 1}
-        duration={500}
-    />
-);
+type Props = {
+    editMode: boolean;
+    value: string;
+    onChange: ChangeEventHandler<HTMLInputElement | HTMLTextAreaElement>;
+};
+
+export const Example = forwardRef<HTMLDivElement, Props>(function Example(
+    { editMode, value, onChange },
+    ref
+) {
+    return (
+        <SmoothTransition
+            render={[
+                (state) => (
+                    <Typography ref={state != "leave" ? ref : undefined}>
+                        {value}
+                    </Typography>
+                ),
+                (state) => (
+                    <TextField
+                        ref={state != "leave" ? ref : undefined}
+                        fullWidth
+                        multiline
+                        value={value}
+                        onChange={onChange}
+                    />
+                ),
+            ]}
+            active={!editMode ? 0 : 1}
+            duration={500}
+        />
+    );
+});
 ```
 
 ## Properties
