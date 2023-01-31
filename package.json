@@ -1,7 +1,7 @@
 {
     "name": "smooth-transition",
-    "version": "1.0.8",
-    "description": "Smooth transition between two React components.",
+    "version": "1.0.9",
+    "description": "Smooth transition between React components.",
     "main": "dist/index.js",
     "module": "dist/index.js",
     "types": "dist/index.d.ts",
