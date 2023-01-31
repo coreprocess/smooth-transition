@@ -5,6 +5,9 @@
 
 `<SmoothTransition />` is a React component for elegantly transitioning between components. Its smooth fading effect and gliding height transition provides a seamless experience for your users as they switch between components.
 
+[![Demo Video](https://i.ytimg.com/vi/297wjIV2VN0/maxresdefault.jpg)](https://www.youtube.com/watch?v=297wjIV2VN0)
+([Demo Video](https://www.youtube.com/watch?v=297wjIV2VN0))
+
 ## Installation
 
 Use your favourite manager to install the [package](https://www.npmjs.com/package/smooth-transition):
