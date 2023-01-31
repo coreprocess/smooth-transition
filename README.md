@@ -1,9 +1,9 @@
-# smooth-transition
+# &lt;SmoothTransition /&gt;
 
 ![npm version](https://badgen.net/npm/v/smooth-transition?icon=npm&label)
 ![GitHub checks](https://badgen.net/github/checks/teamrevin/smooth-transition/publish?icon=github&label=GitHub)
 
-`smooth-transition` is a React component for elegantly transitioning between components. Its smooth fading effect and gliding height transition provides a seamless experience for your users as they switch between components.
+`<SmoothTransition />` is a React component for elegantly transitioning between components. Its smooth fading effect and gliding height transition provides a seamless experience for your users as they switch between components.
 
 ## Installation
 
