@@ -61,8 +61,4 @@ This library is licensed under the MIT license.
 
 ## Contributing
 
-We welcome contributions to the smooth-transition library. To contribute, simply open a [pull request](https://github.com/teamrevin/smooth-transition/pulls) with your changes.
-
-## Support
-
-For issues or support, please open an issue on [GitHub](https://github.com/teamrevin/smooth-transition/issues).
+We welcome contributions to the `smooth-transition` library. To contribute, simply open a [pull request](https://github.com/teamrevin/smooth-transition/pulls) with your changes.
